@@ -1,6 +1,7 @@
 package ex01_Selenium_basic;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class TestSelenium01 {
@@ -12,7 +13,7 @@ public class TestSelenium01 {
         driver.get("https://cms.shmpl.com:2030/");
         System.out.println(driver.getSessionId());
         System.out.println(driver.getTitle());
-
+        driver.quit();
     }
 
 }
