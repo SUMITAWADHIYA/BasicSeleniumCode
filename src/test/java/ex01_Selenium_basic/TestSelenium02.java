@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestSelenium02 {
+
     @Description("open the shmpl.com and verify the title")
     @Test
     public void test_Selenium02(){
@@ -32,5 +33,6 @@ public class TestSelenium02 {
         String Actual = driver.getTitle();
         String Expected ="Login LIS";
         Assert.assertEquals(Actual,Expected,"Miss to Title name ");
+        driver.quit();
     }
 }

@@ -1,8 +1,6 @@
 package ex02_Selenium_basic;
 
 import io.qameta.allure.Description;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -8,6 +8,7 @@ import java.time.Duration;
 
 public class TestSelenium04 {
 
+
     private String extractCredential(String text){
         return text.split(":")[1].trim();
     }
